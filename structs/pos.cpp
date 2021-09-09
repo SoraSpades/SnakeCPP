@@ -6,6 +6,10 @@ void Pos::set(int newX, int newY) {
     x = newX; 
     y = newY; 
 };
+void Pos::set(Pos p) {
+    x = p.x;
+    y = p.y;
+}
 void Pos::add(int addX, int addY) {
     x += addX;
     y += addY;

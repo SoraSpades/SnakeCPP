@@ -8,6 +8,8 @@ struct Pos {
     
     // Function to set a position by coordinates (x,y)
     void set(int newX, int newY);
+    // Function to copy positions
+    void set(Pos p);
     // Function to add two positions
     void add(int addX, int addY);
     // Function to add two positions
